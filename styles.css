@@ -1,0 +1,57 @@
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('C:/Users/NITHIKESH/Downloads/Cormorant_Garamond.zip/CormorantGaramond-Regular.ttf') format('truetype');
+  }
+
+html{
+    font-family:'Cormorant Garamond', serif;
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(244, 239, 233);
+}
+
+
+.custom-nav{
+    background-color: antiquewhite;
+    
+    
+}
+  
+.nav-items{
+    background-color: rgb(176, 176, 3);
+    display: flex;
+    justify-content: space-evenly;
+    .nav-item{
+        padding: 0 10px;
+    }
+}
+
+.card{
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-text{
+    flex-grow: 1;
+}
+.menu-item .card-img-top {
+    object-fit: fill;
+    height: 200px; /* Adjust the height as needed */
+  }
+  
+
